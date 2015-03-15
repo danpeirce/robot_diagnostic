@@ -43,7 +43,7 @@ void main(void)
 	    else if(command < boundary_top_motor) motor_control(command); // function from motor_control.c
 	    else if (command < boundary_top_sensor) sensor_reading(command);  //function from sensor.c
         else if ( command < boundary_top_states ) new_state( command );
-	    else printf("\r\c command not valid -- bug main.c -- msg from function main\r\c");
+	    else printf("\r\n command not valid -- bug main.c -- msg from function main\r\n");
     }
 }
 
@@ -59,6 +59,6 @@ void new_state(enum commands command)
     else if( command == jog2) diagnostic_state = jog2_state;
     else if( command == menu_system) diagnostic_state = process_command;
     else if( command == stop_command ) diagnostic_state = stop_state;
-    else printf("\r\c command not valid -- bug main.c -- msg from function new_state\r\c");
+    else printf("\r\n command not valid -- bug main.c -- msg from function new_state\r\n");
 }
  
