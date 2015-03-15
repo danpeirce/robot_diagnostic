@@ -3,16 +3,16 @@
 
 void menu_top(void)
 {
-    printf("\n\r   Kwantlen Polytechnic University\n\r");
-    printf(  "             APSC1299\n\r");
-    printf("   Robot Diagnostic\n\r");
-    printf("   program by Dan Peirce B.Sc.\n\r");
-    printf("   version 5.0 March 13, 2015\n\r");
+    printf("\r\n   Kwantlen Polytechnic University\r\n");
+    printf(  "             APSC1299\r\n");
+    printf("   Robot Diagnostic\r\n");
+    printf("   program by Dan Peirce B.Sc.\r\n");
+    printf("   version 5.0 March 13, 2015\r\n");
     printf("\n\tTop Level Menu\n\r\n");
     
-    printf("\t m => motor\n\r");
-	printf("\t S => sensor\n\r");
-    printf("\t ? or h => help print this menu\n\r\n");
+    printf("\t m => motor\r\n");
+	printf("\t S => sensor\r\n");
+    printf("\t ? or h => help print this menu\n\r\n>");
 } 
 
 void menu_Mchar2(void)  // motor menu 2nd character
@@ -26,12 +26,12 @@ void menu_Mchar2(void)  // motor menu 2nd character
 
 void menu_Mchar3(void)  // motor menu 3rd character
 {
-    printf("\r\n\tF => fast speed\n\r");
-    printf("\tM => medium speed\n\r");
-    printf("\tS => slow speed\n\r");
+    printf("\r\n\tF => fast speed\r\n");
+    printf("\tM => medium speed\r\n");
+    printf("\tS => slow speed\r\n");
     printf("\t< => reverse (at same speed)\r\n");
     printf("\t> => forward (at same speed)\r\n");
-    printf("\tC => coast\n\r");
+    printf("\tC => coast\r\n");
     printf("\tU => up one menu\n\r\n>");
     
 }  
