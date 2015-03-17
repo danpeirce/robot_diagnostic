@@ -446,7 +446,7 @@ enum commands get_command_MRchar3_rev( unsigned char data )
       case 'S':
         printf("right motor reverse slow\r\n>");
         RMspeed = slow;
-        command = motor_right_slow;
+        command = motor_right_rev_slow;
         break; 
       case 'C':
       case 'c':

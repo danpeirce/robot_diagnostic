@@ -7,7 +7,7 @@ void menu_top(void)
     printf(  "             APSC1299\r\n");
     printf("   Robot Diagnostic\r\n");
     printf("   program by Dan Peirce B.Sc.\r\n");
-    printf("   version 5.0 March 13, 2015\r\n");
+    printf("   version 5.1 March 16, 2015\r\n");
     printf("\n\tTop Level Menu\n\r\n");
     
     printf("\t m => motor\r\n");
