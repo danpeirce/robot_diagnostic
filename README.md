@@ -18,14 +18,14 @@ passive cable. The program uses a menu system that is easy to navigate.
 
 This project has been modified to use the Microchip XC8 compiler. It 
 is currently being used with the MPlab IDE 8.xx but there are plans to
-move to the MPlabX IDE. [Previous versions of the project](http://members.shaw.ca/danpeircenotes2/2010/robot_diagnostic.html) 
+move to the MPlabX IDE. [Previous versions of the project](https://danpeirce.github.io/2010/robot_diagnostic.html) 
 were used with the Microchip C18 compiler. Version control was not 
 used for previous versions.
 
 ## Modified Solarbotics Sumovore Robot
 
 The changes made to the sumovore are listed at: 
-[http://members.shaw.ca/danpeircenotes/sumovore/ChangesToSumovoreBB2.html](http://members.shaw.ca/danpeircenotes/sumovore/ChangesToSumovoreBB2.html)
+[https://danpeirce.github.io/sumovore/ChangesToSumovoreBB2.html](https://danpeirce.github.io/sumovore/ChangesToSumovoreBB2.html)
 
 ### Using PIC18F4525 in place of PIC16F877A
 
@@ -72,8 +72,8 @@ reasons:
 The top level menu has not changed from early versions of the program 
 except for the version number and date displayed.
 
-![](http://members.shaw.ca/danpeircenotes2/2010/top_menu1_1.gif)
+![](https://danpeirce.github.io/2010/top_menu1_1.gif)
 
-The menu system was [programmed as a state machine](http://members.shaw.ca/danpeircenotes2/2010/MenuStateMachineDiagnosticProgram.html#State%20transition%20diagram). The overall 
+The menu system was [programmed as a state machine](https://danpeirce.github.io/2010/MenuStateMachineDiagnosticProgram.html#State%20transition%20diagram). The overall 
 state machine has not been modified from the last version of 2010.
 
